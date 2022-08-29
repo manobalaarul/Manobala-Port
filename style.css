@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+#header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3,5,10,0.7),rgba(3,5,10,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul{
+    float: right;
+    list-style-type: none;
+    margin-top: -45px
+}
+.nav-links ul li{
+    display: inline-block;
+    
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 25px;
+    border: 1px solid transparent; 
+    transition: 1s ease;
+}
+.nav-links ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 25px;
+}
+.text-box a{
+    margin-top: 20px;
+    text-decoration: none;
+    border: 1px solid transparent; 
+    transition: 1s ease;
+    display: inline-block;
+    border-radius: 35px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 20px;
+}
+.text-box a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.user-img{
+    width: 370px;
+    position: absolute;
+    right: 8%;
+    top:15%;
+    bottom: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.user-img:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 253, 253);
+}
+#Services{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    background-image: linear-gradient(rgba(3,5,10,0.7),rgba(3,5,10,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+#Services h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+#Services p{
+    font-size: 19px;
+    color: #666;
+    font-weight: 300;
+    color: #fff;
+    line-height: 20px;
+    padding: 10px;
+}
+.roww{
+    width: 90%;
+    padding-left: 115px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex-basis: 31%;
+    background: #145A32;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+#portfolio h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.column:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 253, 253);
+}
+
+#about{
+    background-image: linear-gradient(rgba(3,5,10,0.7),rgba(3,5,10,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 78px 12px;
+}
+#about img{
+    width: 370px;
+    top:15%;
+    bottom: 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+#about img:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 253, 253);
+   
+}
+.ab-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ab-text h1{
+    color: #fff;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.ab-text h5{
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.ab-text p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 45px;
+}
+.sp{
+    color:#145A32
+}
+.ab-text button{
+    background: #145A32;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 27px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    font-size: 15px;
+}
+button:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 253, 253);
+}
+#my-area{
+    width: 100%;
+    background-image: linear-gradient(rgba(3,5,10,0.7),rgba(3,5,10,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.section-title h2{
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.section-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.single-team{
+    padding-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #000;
+}
+.team-img{
+    position: relative;
+    overflow: hidden;
+}
+.team-img img{
+    width: 100%;
+    transition: 0.3s;
+}
+.single-team:hover .team-img img{
+    transform: scale(1,1);
+}
+.team-content{
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    transition: all 0.4s;
+    background: #145A32;
+}
+.single-team:hover .team-content{
+    height: 90px;
+}
+.team-info{
+    padding: 5px 20px 5px 20px;
+    transition: all.5s;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    width: 100%;
+    background-image: linear-gradient(rgba(3,5,10,0.7),rgba(3,5,10,0.7)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#contact .container{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    height: 100%;
+    background:rgba(255,255,255,0.1);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(25px);
+}
+#contact .container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+    pointer-events: none;
+    transform: skewX(-15deg);
+}
+#contact .container h2{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#contact .container .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}#contact .container .col{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+}
+#contact .container .row100 .col .inputBox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+}
+#contact .container .row100 .col .inputBox input,
+#contact .container .row100 .col .inputBox textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+#contact .container .row100 .col .inputBox .text{
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+#contact .container .row100 .col .inputBox input:focus + .text,
+#contact .container .row100 .col .inputBox input:valid + .text,
+#contact .container .row100 .col .inputBox textarea:focus + .text,
+#contact .container .row100 .col .inputBox textarea:valid + .text{
+    top: -35px;
+    left: -10px;
+
+}
+#contact .container .row100 .col .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+#contact .container .row100 .col .inputBox input:focus ~ .line,
+#contact .container .row100 .col .inputBox textarea:valid ~ .line{
+    height: 100%;
+}
+#contact .container .row100 .col .inputBox .textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+#contact .container .row100 .col .inputBox textarea:focus ~ .line,
+#contact .container .row100 .col .inputBox textarea:valid ~ .line{
+    height: 100%;
+}
+.container button{
+    background: #145A32;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 27px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    margin: 10px;
+    font-size: 15px;
+}
+button:hover{
+    box-shadow: 0 0 20px 0px rgb(255, 253, 253);
+}
